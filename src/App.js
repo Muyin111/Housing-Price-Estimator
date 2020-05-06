@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import SearchBar from './SearchBar';
 import About from './About';
 import Login from './Login';
+import Register from './Register';
 import Contact from './Contact';
 import './App.css';
 
@@ -25,6 +26,7 @@ class App extends Component {
                         )} />
                         <Route path="/about" component={About} />
                         <Route path="/login" component={Login} />
+                        <Route path="/register" component={Register} />
                         <Route path="/contact" component={Contact} />
                     </div>
                 </div>
